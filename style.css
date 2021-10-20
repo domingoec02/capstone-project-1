@@ -47,6 +47,7 @@
 	}
 	section .container-fluid #second {
 		margin-top: 30px;
+		padding: 10px;
 	}
 }
 @media screen and (max-width: 500px){
@@ -82,4 +83,8 @@ nav div a:hover {
 section .container-fluid .row #img img {
 	border-radius: 10%;
 	border: 2px solid;
+}
+article .container-fluid{
+	background-color: white;
+	height: 100vh;
 }
